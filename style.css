@@ -9,6 +9,19 @@ button:hover {
     text-shadow: gray;
 }
 
+.add-to-cart {
+    background-color: #E95A08; /* red */
+    color: white;
+    border: 2px solid #E95A08;
+    transition: all 0.3s ease;
+}
+
+.add-to-cart {
+    background-color: white;
+    color: #E95A08;
+    border-color: #E95A08;
+}
+
 body {
     background-color: #F5F8FF;
 
@@ -628,3 +641,4 @@ footer {
     }
 
 }
+

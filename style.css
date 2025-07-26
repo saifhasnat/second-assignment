@@ -9,7 +9,6 @@ button:hover {
     text-shadow: gray;
 }
 
-
 body {
     background-color: #F5F8FF;
 
@@ -20,9 +19,6 @@ body {
     --primaryColorBlack: #000000;
     --color-Gray: #6B7280;
 }
-
-
-/* header secton  styles */
 
 .header {
     max-width: 1140px;
@@ -78,7 +74,6 @@ nav {
 
 }
 
-/* banner part */
 .banner {
     display: flex;
     justify-content: space-between;
@@ -115,8 +110,6 @@ nav {
     width: 100%;
 }
 
-
-/*  plants section styles */
 
 .plants-section {
     max-width: 1140px;
@@ -182,7 +175,6 @@ nav {
     border: none;
 }
 
-/* plant lover section styles */
 
 .trusted-plant-lover-section {
     max-width: 1140px;
@@ -206,7 +198,7 @@ nav {
 
 .plant-lover .img img {
     height: 286px;
-    /* width: 286px; */
+ 
     position: absolute;
     top: -100px;
     right: -130px;
@@ -231,7 +223,6 @@ nav {
 }
 
 
-/* latest deal section */
 
 .deal-section {
     max-width: 1140px;
@@ -329,7 +320,6 @@ nav {
 }
 
 
-/* form section */
 
 .form-section {
     max-width: 100%;
@@ -379,7 +369,6 @@ nav {
     font-size: 16px;
 }
 
-/* footer section */
 
 footer {
     max-width: 100%;
@@ -430,10 +419,9 @@ footer {
 
 
 
-/* responsive for mobile devices */
 @media (max-width:576px) {
 
-    /* navbar section */
+
     nav {
         margin: 0 20px;
         align-items: center;
@@ -455,7 +443,6 @@ footer {
     }
 
 
-    /* banner section */
     .banner {
         margin: 30px 20px;
         flex-direction: column-reverse;
@@ -482,7 +469,6 @@ footer {
         margin-bottom: 50px;
     }
 
-    /* plants section */
     .plants {
         margin: 0 20px;
     }
@@ -505,8 +491,6 @@ footer {
         gap: 15px;
 
     }
-
-    /* plant lover section */
 
 
     .plant-lover .img img {
@@ -543,8 +527,6 @@ footer {
         width: 100%;
     }
 
-
-    /* letest deal section */
 
 
     .letest-deal {
@@ -602,7 +584,6 @@ footer {
         order: 2;
     }
 
-    /* form section */
     .form-join {
         height: 267px;
     }
@@ -623,7 +604,6 @@ footer {
         width: 130px;
     }
 
-    /* footer section */
 
 
     #main {
